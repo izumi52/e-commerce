@@ -20,6 +20,7 @@
         transition: 1s;
     }
     &:hover{
+        cursor: pointer;
         .menu-item-bg{
             transform: scale(1.05);
         }
