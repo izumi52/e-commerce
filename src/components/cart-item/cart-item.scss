@@ -8,7 +8,7 @@
       width: 30%;
     }
   
-    .item-details {
+    .cart-item-details {
       width: 70%;
       display: flex;
       flex-direction: column;
@@ -18,6 +18,7 @@
   
       .name {
         font-size: 16px;
+        display: block;
       }
     }
   }

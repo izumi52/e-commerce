@@ -6,7 +6,7 @@ const CartItem = ({item: { name, price, imageUrl, quantity}}) => (
         <img src={imageUrl} alt={name} />
         <div className='cart-item-details'>
             <span className='name'>{name}</span>
-            <span className='price'>{quantity} X ${price}</span>
+            <span className='price'>{quantity} x ${price}</span>
         </div>
     </div>
 )
